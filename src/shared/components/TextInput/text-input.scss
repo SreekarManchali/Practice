@@ -1,0 +1,24 @@
+.text-input-container {
+    display: flex;
+    align-items: flex-end;
+
+    button {
+        padding: 0 $spacing-06;
+        min-height: 0;
+        height: 40px;
+       
+    }
+}
+
+.helper-text-active {
+    align-items: center;
+
+    button {
+        margin-top: 4px;
+        // background-color: white;
+        
+    }
+    .ViewOffFilled svg{
+        margin-left: 2rem;
+    }
+}

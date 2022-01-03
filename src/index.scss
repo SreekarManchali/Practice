@@ -1,0 +1,10 @@
+@import "carbon-components/scss/globals/scss/styles.scss";
+
+$feature-flags: (
+    grid-columns-16: true
+);
+
+* {
+    font-family: carbon--font-family("sans") !important;
+    font-style: normal;
+}

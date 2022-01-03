@@ -1,0 +1,40 @@
+@import "carbon-components/scss/globals/scss/typography.scss";
+.inputbox1 {
+    color: #f2f2f2;
+}
+.inputbox2 {
+    color: #f2f2f2 !important;
+
+    position: relative;
+}
+.inputbox {
+    background-color: #262626 !important;
+    color: #f2f2f2 !important;
+}
+
+.bx--dropdown .bx--list-box__field {
+    background-color: #262626;
+}
+.bx--list-box__label {
+    color: #f2f2f2 !important;
+}
+.bx--list-box__menu-icon > svg {
+    fill: #f2f2f2 !important;
+}
+@media (min-width: 1056px) {
+    .inputbox2 {
+        margin-left: $spacing-07;
+    }
+}
+@media (max-width: 1055px) {
+    .inputbox2 {
+        margin-top: $spacing-06;
+    }
+}
+
+@media (max-width: 675px) {
+    .inputbox1,
+    .inputbox2 {
+        margin-top: $spacing-06;
+    }
+}

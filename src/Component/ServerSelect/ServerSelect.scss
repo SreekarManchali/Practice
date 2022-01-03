@@ -1,0 +1,106 @@
+@import "carbon-components/scss/globals/scss/typography.scss";
+.dropdowndiv {
+    width: 20rem;
+    background-color: #2e2e2e;
+    height: 23.75rem;
+    position: relative;
+    margin-top: -16rem;
+}
+.dropdowndiv p {
+    color: #8d8d8d;
+    font-weight: 600;
+    font-size: $spacing-05;
+    line-height: $spacing-05;
+    margin-left: $spacing-05;
+    padding-top: $spacing-05;
+}
+
+.bx--list--unordered > .bx--list__item::before {
+    content: "•" !important ;
+    font-size: 280%;
+    color: green;
+    width: 1em;
+    position: absolute;
+    top: $spacing-01;
+    left: $spacing-05 !important;
+}
+.dropdowndiv li {
+    color: white;
+
+    padding-top: $spacing-05;
+    padding-left: $spacing-09;
+    cursor: pointer;
+    position: relative;
+}
+.firstli:hover,
+.secondli:hover,
+.thirdli:hover {
+    background: black;
+}
+li span {
+    font-family: IBM Plex Sans;
+    font-size: $spacing-04;
+    font-style: normal;
+    font-weight: 400;
+    line-height: $spacing-04;
+
+    text-align: left;
+    color: #929292;
+}
+.deletemark1,
+.deletemark2,
+.deletemark3 {
+    position: absolute;
+    color: #f00c1f;
+
+    top: $spacing-04;
+    right: $spacing-07;
+    // visibility: hidden;
+}
+.penmark1,
+.penmark2,
+.penmark3 {
+    position: absolute;
+    color: #f3eced;
+
+    top: $spacing-04;
+    right: $spacing-10;
+    // visibility: hidden;
+}
+.up {
+    position: absolute;
+    color: white;
+    right: $spacing-07;
+    bottom: $spacing-05;
+}
+
+.bx--tabs--scrollable {
+    padding: 0px !important;
+}
+// .select_move{
+// //   margin-left: 12rem;
+//     margin-top: -5rem;
+//     padding:4rem
+// }
+.add_button1{
+   
+    
+    height: -241px;
+    width: 173px;
+    background-color: palevioletred;
+  
+    
+   
+  }
+  .add_button1 svg {
+    
+    left: $spacing-05;
+    top: $spacing-04;
+  }
+  .add_button1 span{
+    
+      // position: absolute;
+      left: $spacing-09;
+      top: $spacing-05;
+      font-size: 15px;
+    }

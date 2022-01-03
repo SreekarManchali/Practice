@@ -1,0 +1,60 @@
+// @import "carbon-components/scss/globals/scss/vendor/@carbon/type/scss/font-family.scss";
+// @import "carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/breakpoint.scss";
+// @import "carbon-components/scss/globals/scss/vars.scss";
+@import "carbon-components/scss/globals/scss/typography.scss";
+
+.maindiv {
+    background: #f2f2f2;
+    min-height: 100vh;
+
+    padding-top: $spacing-11;
+}
+.firstP {
+    font-style: normal;
+    font-weight: 600;
+    font-size: $spacing-06;
+    line-height: $spacing-05;
+
+    margin-left: $spacing-04;
+}
+.secondP {
+    font-style: normal;
+    font-weight: normal;
+    // font-size: $spacing-05;
+    font-size: 14px;
+    padding-top: $spacing-03;
+    margin-left: $spacing-04;
+    color: #b4b4b4;
+}
+.bx--grid {
+    margin: auto !important;
+    max-width: 126rem !important;
+}
+.tabdiv {
+    margin-top: $spacing-07 !important;
+    margin-left: $spacing-05 !important;
+}
+.tabdiv .bx--row {
+    margin-top: $spacing-05 !important;
+}
+.bx--tab-content {
+    padding-left: 0 !important;
+}
+
+.Button1 {
+    background: #0f62fe;
+    margin-right: $spacing-08 * 6 !important;
+}
+.btndiv {
+    display: flex;
+    justify-content: flex-end;
+}
+.bx--btn {
+    min-height: 1.8rem !important;
+}
+@media (max-width: 1055px) {
+    .btndiv {
+        justify-content: flex-start;
+        margin-top: $spacing-06;
+    }
+}

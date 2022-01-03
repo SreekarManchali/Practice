@@ -1,0 +1,94 @@
+@import "carbon-components/scss/globals/scss/typography.scss";
+
+.maindiv {
+    background: #f2f2f2;
+    min-height: 100vh;
+
+    padding-top: $spacing-11;
+}
+.firstP {
+    font-style: normal;
+    font-weight: 600;
+    font-size: $spacing-06;
+    line-height: $spacing-05;
+
+    margin-left: $spacing-04;
+}
+.secondP {
+    font-style: normal;
+    font-weight: normal;
+    // font-size: $spacing-05;
+    font-size: 14px;
+    padding-top: $spacing-03;
+    margin-left: $spacing-04;
+    color: #b4b4b4;
+}
+.bx--grid {
+    margin: auto !important;
+    max-width: 126rem !important;
+}
+.Header_page{
+    margin-top: 10rem !important;
+    margin-left: 7rem !important;
+    margin-bottom: -8rem !important;
+    font-size: 2rem !important;
+}
+.tabdiv {
+    margin-top: $spacing-07 !important;
+    // margin-left: -5rem !important;
+}
+.tabdiv .bx--row {
+    margin-top: 13rem !important;
+}
+.bx--tab-content {
+    padding-left: 0 !important;
+}
+
+.Button1 {
+    background: #43e21b;
+    // margin-right: $spacing-12 * 10 !important;
+    margin-right: 7rem !important;
+}
+
+.Button_2 {
+    background:#43e21b;
+    // margin-right: $spacing-12 * 10 !important;
+    margin-right: 47rem !important;
+}
+.btndiv {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -3rem !important;
+   
+}
+.bx--btn {
+    min-height: 1.8rem !important;
+}
+.add_button1{
+   
+    
+    height: -241px;
+    width: 173px;
+    background: #43e21b;
+margin-right: 20rem !important;
+    float:right;
+   
+  }
+  .add_button1 svg {
+    
+    left: $spacing-05;
+    top: $spacing-04;
+  }
+  .add_button1 span{
+    
+      // position: absolute;
+      left: $spacing-09;
+      top: $spacing-05;
+      font-size: 15px;
+    }
+@media (max-width: 1055px) {
+    .btndiv {
+        justify-content: flex-start;
+        margin-top: $spacing-06;
+    }
+}
